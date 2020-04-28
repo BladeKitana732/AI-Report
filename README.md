@@ -16,4 +16,4 @@ What features make your website unique
 Teammates and tasks they were responsible for 
 Teresa- Git leader (making sure we are in alignment for project to push the right code we want to display)
 Aleh- React leader (making sure we have a functional app w/ components that compliment each other)
-Juan- Javascript Leader (making sure we are rendering what we want to render on said components properly)
+Juan- Javascript Leader (making sure we are rendering what we want to render on said components properly);
