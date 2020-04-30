@@ -1,7 +1,7 @@
 # AI-Report
 React mockup group project
 
-![Wireframe](/images/home.png)
+![Wireframe](/ai-report/src/images/home.png)
 
 ![Wireframe](/Users/student_m17/Desktop/homework/mod2/week2/AI-Report/ai-report/src/images/AIethics.png)
 
