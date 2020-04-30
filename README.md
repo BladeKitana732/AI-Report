@@ -1,7 +1,7 @@
 # AI-Report
 React mockup group project
 
-![Wireframe](./src/images/home.png)
+![Wireframe](/images/home.png)
 
 Brief description of the report
 >
