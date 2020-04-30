@@ -1,5 +1,11 @@
 # AI-Report
-React mockup group project 
+React mockup group project
+
+![Wireframe](/ai-report/src/images/home.png)
+
+![Wireframe](/ai-report/src/images/AIethics.png)
+
+![Wireframe](/ai-report/src/images/AIgovernance.png)
 
 Brief description of the report
 >
