@@ -5,6 +5,10 @@ export default class Ethics extends Component {
         return (
             <div>
 
+                <Container fluid>
+
+                </Container>
+
             </div>
         )
     }
