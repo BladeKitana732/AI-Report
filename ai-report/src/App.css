@@ -1,4 +1,9 @@
 li {
     list-style: none;
-    color: blue;
+}
+
+#navLinks {
+    display: grid;
+    border: solid 2px blueviolet;
+    grid-template-columns: 1fr 1fr 1fr;
 }
