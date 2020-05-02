@@ -5,6 +5,7 @@ import Ethics from './components/Ethics';
 import Governing from './components/Governing';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
+
 function App() {
   return (
 

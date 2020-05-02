@@ -2,13 +2,14 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
+
 export default function Navbar() {
     return (
         <nav>
 
             <ul id="navLinks" >
 
-                <li><NavLink to="/">
+                <li style= {{ textDecorationLine: "none"}}><NavLink to="/">
                     What is AI?
                 </NavLink></li>
 
