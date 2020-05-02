@@ -9,7 +9,7 @@ export default function Navbar() {
 
             <ul id="navLinks" >
 
-                <li><NavLink to="/">
+                <li id="firstLink"><NavLink to="/">
                     What is AI?
                 </NavLink></li>
 

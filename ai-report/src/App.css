@@ -6,16 +6,14 @@
 
 li {
     list-style: none;
-    text-align: right;
-    border: solid 4px blue;
-    padding: 0;
-    margin: 0;
+    /* text-align: right; */
+    border: solid 2px blue;
 }
 
 #navLinks {
     display: grid;
     border: solid 2px blueviolet;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 4em;
-   
+    padding: 0 0 0 0;
+    text-align: right;
 }
