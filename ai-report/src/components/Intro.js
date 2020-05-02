@@ -10,7 +10,12 @@ export default function Intro() {
             <br />
             <p>The term artificial intelligence was first coined by John McCarthy in 1956 when he held the first academic conference on the subject. But the journey to understand if machines can truly think began much before that.After WWII, a number of people independently started to work on intelligent machines.  The English mathematician Alan Turing may have been the first.  He gave a lecture on it in 1947.  He also may have been the first to decide that AI was best researched by programming computers rather than by building machines.  By the late 1950s, there were many researchers on AI, and most of them were basing their work on programming computers.</p>
             <br />
-            <p></p>
+            <h2>What are the types of AI that are studied?</h2>
+            <br />
+            <ol>
+                <li>Narrow AI</li>
+                <li>General AI</li>
+            </ol>
 
         </div>
     )

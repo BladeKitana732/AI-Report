@@ -7,17 +7,17 @@ export default function Navbar() {
     return (
         <nav>
 
-            <ul id="navLinks" >
+            <ul id="navBar" >
 
-                <li id="firstLink"><NavLink to="/">
+                <li className= "navLinks"><NavLink to="/">
                     What is AI?
                 </NavLink></li>
 
-                <li><NavLink to="/ai-ethics">
+                <li><NavLink className= "navLinks" to="/ai-ethics">
                     AI Ethics/Morals
                 </NavLink></li>
 
-                <li><NavLink to="/ai-governing">
+                <li><NavLink className= "navLinks" to="/ai-governing">
                     Governing AI: Do they have rights?
                 </NavLink></li>
 

@@ -4,16 +4,15 @@
 }
 
 
-li {
+/* .navLinks {
     list-style: none;
     /* text-align: right; */
-    border: solid 2px blue;
-}
+    /* border: solid 2px blue;
+} */ 
 
-#navLinks {
+.navLinks {
     display: grid;
     border: solid 2px blueviolet;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 0 0 0;
+    grid-template-rows: repeat(3, 1fr);
     text-align: right;
 }
