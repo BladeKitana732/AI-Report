@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import Ethics from './components/Ethics';
 import Governing from './components/Governing';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
+import './App.css';
 
 
 function App() {

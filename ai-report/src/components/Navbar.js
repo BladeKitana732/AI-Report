@@ -9,7 +9,7 @@ export default function Navbar() {
 
             <ul id="navLinks" >
 
-                <li style= {{ textDecorationLine: "none"}}><NavLink to="/">
+                <li><NavLink to="/">
                     What is AI?
                 </NavLink></li>
 
