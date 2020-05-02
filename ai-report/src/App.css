@@ -1,11 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 li {
     list-style: none;
+    text-align: right;
+    border: solid 4px blue;
+    padding: 0;
+    margin: 0;
 }
 
 #navLinks {
     display: grid;
     border: solid 2px blueviolet;
     grid-template-columns: repeat(3, 1fr);
-    text-align: right;
-    gap: 1em;
+    padding-left: 4em;
+   
 }
