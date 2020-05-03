@@ -19,7 +19,7 @@ export default function Governing() {
              article_Pic="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OMC/right-20190226114018809.jpg"
              article_top_2="
                 “AI is already impacting most aspects of our lives. Given its pervasiveness, how this technology is developed is raising profound legal and ethical questions that need to be addressed,” says Julian David, chief executive of industry body techUK."
-             article_Pic2="https://ohrh.law.ox.ac.uk/wordpress/wp-content/uploads/2018/01/ITU.jpg"
+             article_Pic2="https://thumbs.gfycat.com/ZealousVengefulBlackrussianterrier-size_restricted.gif"
              article_top_3="
                 Take Facebook, Amazon or IBM, they are all legal entities, with similar privileges as citizens, with the right to defend themselves in court and the right to free speech. If IBM has a legal personhood, is it possible that Watson, the company’s AI engine, Google’s complex algorithm or Amazon’s Alexa might also qualify for a new status in law, with new responsibilities and rights too?"
              article_top_4="
