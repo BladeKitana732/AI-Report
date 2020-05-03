@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$color-primary:white;
+$font-size:2rem;
+
+.Main {
+
+    width: 100vw;
+    height: 220vh;
+    background-image: url('https://wallpaperaccess.com/full/1398312.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-primary;
+}
+.Header {
+    display:flex;
+    background-attachment: fixed;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    h2{
+        text-align: center;
+        font-size: 4rem;
+        margin: 20px;
+    }
+}
+.firstBlock {
+    font-size: $font-size;
+    img {
+        float: left;
+        margin: 50px;
+        border:2px solid green;
+        box-shadow:5px 5px 5px 1px grey;
+    }
+
+    article {
+        padding: 20px;
+    }
+    
+}
