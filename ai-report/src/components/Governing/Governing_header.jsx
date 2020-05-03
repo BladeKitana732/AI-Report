@@ -1,4 +1,5 @@
 import React from 'react';
+import  './styles/Governing_header';
 
 
 export default function GoverningComp(props) {
