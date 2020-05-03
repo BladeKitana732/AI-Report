@@ -10,7 +10,7 @@
       background-color: rgba(163, 156, 156, 0.2);
       margin: 80px 0;
       border-radius: $radiusLeft 0;
-      padding: 200px;
+      padding: 9vw;
       text-shadow: 2px 2px 0.5px black;
       border:.5px solid rgba(255, 255, 255, 0.514);
       box-shadow: 9px 9px 22px rgba(196, 196, 202, 0.541);
@@ -30,7 +30,7 @@ $font-size:2.1rem;
 
 .Main {
     width: 100vw;
-    height: 450vh;
+    height: 450%;
     background-image: url('https://wallpaperaccess.com/full/1398312.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -73,7 +73,7 @@ $font-size:2.1rem;
         display: inline-block;
         text-decoration: none;
         color: blue;
-        font-size: 1.6rem;
+        font-size: 1.6em;
         margin:40px;
 
         &:hover{

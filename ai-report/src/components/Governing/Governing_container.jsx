@@ -39,13 +39,13 @@ export default function Governing_container(props) {
                     <div className="videoLink">
                         <ReactPlayer className="videoLink"
                             url="https://www.youtube.com/watch?v=oXEOXDS8nJ8"
-                            width="800px"
-                            height='500px'
+                            width="30vw"
+                            height='40vh'
                         />
                         <ReactPlayer className="videoLink"
                             url="https:www.youtube.com/watch?v=775DYqKA5Ks"
-                            width="800px"
-                            height='500px'
+                            width="30vw"
+                            height='40vh'
                         />
                     </div>
                     <div className="links">
