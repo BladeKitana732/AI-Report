@@ -5,7 +5,6 @@ import Governing_container from './Governing/Governing_container';
 export default function Governing() {
     return (
         <div>
-            <h1>Governing AI</h1>
             <Governing_header
              picture = "https://acn-marketing-blog.accenture.com/wp-content/uploads/2020/01/istock-940875820.jpg"
              secondPic="https://wallpaperaccess.com/full/1398312.jpg"

@@ -4,7 +4,7 @@ import ReactPlayer from "react-player"
 
 export default function Governing_container(props) {
     return (
-        <div>
+        <div className='Main'>
             <div className="Header">
             <h2>{props.headText_top}</h2>
                 <div className="firstBlock">
