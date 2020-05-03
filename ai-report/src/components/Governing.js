@@ -1,5 +1,5 @@
 import React from 'react';
-import GoverningComp from './Governing/Governing-header'
+import GoverningComp from './Governing/Governing_header'
 
 export default function Governing() {
     return (
