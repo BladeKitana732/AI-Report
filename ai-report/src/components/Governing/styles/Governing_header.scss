@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+@mixin inline-animation($duration) {
+  $name: inline-#{unique-id()};
+
+  @keyframes #{$name} {
+    @content;
+  }
+
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: infinite;
+}
+
+.Parralax {
+    text-align: center;
+    img {
+        position: relative;
+        width:100vw;
+        height: 100vh;
+    }
+    h1 {
+       color: lighten(orange,11%);
+       text-shadow:3px 3px 2.5px rgb(29, 29, 28);
+       position: absolute;
+       top:50vh;
+       right:15vw;
+       letter-spacing: 0.7rem;
+       z-index: 5;
+       font-size: 4rem;
+       span:nth-child(2) {
+           color: yellowgreen;
+           @include inline-animation(5s) {
+            from { left: yellow }
+            50% { color: red;
+            }
+           }
+       }
+    }
+}
