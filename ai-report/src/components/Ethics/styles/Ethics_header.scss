@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:500&display=swap"');
+
+$primary-color:rgba(206, 201, 201, 0.053);
+$primary-secondary:rgba(175, 163, 163, 0.953);
+$font-size:1.65em;
+
+@mixin statement($color) {
+    color: $color;
+    font-family: 'Dosis', sans-serif;;
+    padding:3%;
+}
+
+.Header__main {
+    background-color:$primary-color;
+}
+.Header__main-container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin:0 auto;
+    padding:3%;
+    background-color:$primary-secondary;
+    h1{
+        font-family: 'Yellowtail', cursive;
+        font-size: 5em;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+
+    img:nth-child(3) {
+        position: absolute;
+        left: -5vw;
+        bottom: 30vh;
+    }
+
+    img:nth-child(4) {
+        position: absolute;
+        right: -100px;
+        top: 45vh;
+    }
+
+    img:nth-child(2) {
+        width: 60%;
+        height: 25%;
+        position: absolute;
+        bottom: -25vh;
+        right: 15vw;
+    }
+}
+
+.Header__main-container-article {
+    display: flex;
+    padding: 5%;
+    font-size: $font-size;
+    text-shadow: 1px 1px 0.5px rgb(105, 38, 38);
+    
+    color: rgb(80, 82, 63);
+        article:nth-child(1){
+            @include statement(rgb(161, 87, 26))
+        }
+        article:nth-child(2){
+            @include statement(rgb(124, 36, 36));
+            margin:50vh 0 10vh -20vh;
+        }
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom:5vh;
+}

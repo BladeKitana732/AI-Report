@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+$primary-color:rgba(156, 94, 75, 0.953);
+
+.father_container{
+    background-image: url('https://blog.einstein.ai/content/images/2019/01/annie-spratt-746980b-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@mixin headerAlign {
+    text-align: center;
+    margin: 15px;
+}
+
+.main_container {
+    font-family: 'Playfair Display', serif;
+    background-color:$primary-color;
+    width: 86%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    text-shadow: .1px .1px 0.1px rgb(161, 36, 36);
+}
+.article_block {
+    width:70%;
+    
+    margin: 0 auto;
+}
+.first_block {
+    padding:15% 10px 10px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    h2{
+        @include headerAlign()
+    }
+    article:nth-child(3) {
+        float: right;
+    }
+    img {
+        margin: 30px;
+    }
+}
+.second_block {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+    h2{
+        @include headerAlign()
+    }
+}
+.players {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    .Player {
+        margin: 100px;
+    }
+}
+.fourth_block,.third_block {
+    padding: 0.61%;
+    h2 {
+        text-align: center;
+        padding: 0.61%;
+    }
+}
+
+.fifth_block {
+    padding:0px 0px 10px 0px;
+    display: flex;
+    h2{
+        @include headerAlign()
+    }
+}
+
+    .picture {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin:50px auto;
+    }
