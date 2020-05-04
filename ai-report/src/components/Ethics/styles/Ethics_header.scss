@@ -36,14 +36,14 @@ $font-size:1.65em;
 
     img:nth-child(3) {
         position: absolute;
-        left: -10vw;
-        top: 95vh;
+        left: -5vw;
+        bottom: 30vh;
     }
 
     img:nth-child(4) {
         position: absolute;
         right: -100px;
-        top: 35vh;
+        top: 45vh;
     }
 
     img:nth-child(2) {
@@ -67,6 +67,6 @@ $font-size:1.65em;
         }
         article:nth-child(2){
             @include statement(rgb(124, 36, 36));
-            margin:40vh 0 0 -20vh;
+            margin:50vh 0 10vh -20vh;
         }
 }

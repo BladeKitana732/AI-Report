@@ -31,17 +31,9 @@ $primary-color:rgba(156, 94, 75, 0.953);
     margin: 0 auto;
 }
 .first_block {
-    position: relative;
     padding:15% 10px 10px 0px;
     display: flex;
-    flex-flow: row wrap;
-    div:nth-child(1) {
-        width: 60%;
-    }
-    div {
-        width:40%;
-        margin: auto 0;
-    }
+    flex-flow: column wrap;
     h2{
         @include headerAlign()
     }
@@ -49,29 +41,25 @@ $primary-color:rgba(156, 94, 75, 0.953);
         float: right;
     }
     img {
-        margin: 20px;
+        margin: 30px;
     }
 }
 .second_block {
-    padding:0px 0px 10px 0px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    padding: 0;
     h2{
         @include headerAlign()
-    }
-    div:nth-child(1) {
-        width: 60%;
-    } 
-    div:nth-child(2) {
-        width: 40%;
-        height: 100%;
     }
 }
 .players {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    .Player {
+        margin: 100px;
+    }
 }
 .fourth_block,.third_block {
     padding: 0.61%;
@@ -87,12 +75,12 @@ $primary-color:rgba(156, 94, 75, 0.953);
     h2{
         @include headerAlign()
     }
-    div:nth-child(1) {
-        width: 60%;
-        padding: 2%;
-    } 
 }
 
     .picture {
-        margin: auto 1%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin:50px auto;
     }

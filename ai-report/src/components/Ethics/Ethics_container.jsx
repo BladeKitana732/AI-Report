@@ -20,16 +20,8 @@ export default function Ethics_container(props) {
             <div className="second_block article_block">
                 <div className="players">
                     <ReactPlayer className="Player"
-                        url="https://www.youtube.com/watch?v=Izd2qOgOGQI"
-                        width="400px"
-                    />
-                    <ReactPlayer className="Player"
-                        url="https://www.youtube.com/watch?v=vgUWKXVvO9Q"
-                        width="400px"
-                    />
-                    <ReactPlayer className="Player"
                         url="https://www.youtube.com/watch?v=H15uuDMqDK0"
-                        width="400px"
+                        width="1000px"
                     />
                 </div>
                 <div className="second_block__article">
@@ -43,15 +35,32 @@ export default function Ethics_container(props) {
                 <div></div>
                 <div className="third_block__article">
                 <h2>{props.header_middle2}</h2>
+                <div className="picture">
+                <img src="https://www.governmentciomedia.com/sites/default/files/styles/featured_article_image/public/2019-03/Screen%20Shot%202019-03-11%20at%201.49.45%20PM.png?itok=QMMmxNPM" alt="no img"
+                    width="1000px"
+                    />
+                </div>
+
                 <article>{props.article_middle4}</article>
                 <article>{props.article_middle5}</article>
                 </div>
-                
+                <div className="players">
+                    <ReactPlayer className="Player"
+                        url="https://www.youtube.com/watch?v=vgUWKXVvO9Q"
+                        width="1000px"
+                    />
+                </div>
             </div>
             <div className="fourth_block article_block">
                 <h2>{props.header_bottom}</h2>
                 <article>{props.article_bottom}</article>
                 <article>{props.article_bottom2}</article>
+            </div>
+            <div className="players">
+                <ReactPlayer className="Player"
+                    url="https://www.youtube.com/watch?v=Izd2qOgOGQI"
+                    width="800px"
+                />
             </div>
             <div className="fifth_block article_block">
                 <div className="fifth_block__article">
@@ -59,13 +68,6 @@ export default function Ethics_container(props) {
                 <article>{props.article_bottom3}</article>
                 <article>{props.article_bottom4}</article>
                 </div>
-                <div className="picture">
-                    <img src="https://www.governmentciomedia.com/sites/default/files/styles/featured_article_image/public/2019-03/Screen%20Shot%202019-03-11%20at%201.49.45%20PM.png?itok=QMMmxNPM" alt="no img"
-                    width="600px"
-                    height="500px"
-                    />
-                </div>
-            
             </div>
         </div>
     )
