@@ -36,22 +36,22 @@ $font-size:1.65em;
 
     img:nth-child(3) {
         position: absolute;
-        left: -5vw;
-        top: 65vh;
+        left: -10vw;
+        top: 95vh;
     }
 
     img:nth-child(4) {
         position: absolute;
         right: -100px;
-        top: 20vh;
+        top: 35vh;
     }
 
     img:nth-child(2) {
-        width: 50%;
-        height: 35%;
+        width: 60%;
+        height: 25%;
         position: absolute;
-        bottom: -15vh;
-        right: 18vw;
+        bottom: -25vh;
+        right: 15vw;
     }
 }
 
@@ -67,6 +67,6 @@ $font-size:1.65em;
         }
         article:nth-child(2){
             @include statement(rgb(124, 36, 36));
-            margin:20vh 0 0 -20vh;
+            margin:40vh 0 0 -20vh;
         }
 }

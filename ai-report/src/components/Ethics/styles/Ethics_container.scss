@@ -32,57 +32,55 @@ $primary-color:rgba(156, 94, 75, 0.953);
 }
 .first_block {
     position: relative;
-    padding:200px 10px 10px 0px;
+    padding:15% 10px 10px 0px;
     display: flex;
+    flex-flow: row wrap;
+    div:nth-child(1) {
+        width: 60%;
+    }
+    div {
+        width:40%;
+        margin: auto 0;
+    }
     h2{
         @include headerAlign()
     }
-
-    div:nth-child(1) {
-
-        width: 60%;
-        height: 100%;
+    article:nth-child(3) {
+        float: right;
     }
     img {
-        position: absolute;
-        right: -15%;
-        top: 35vh;
-        width: 50%;
-        height: 50%;
+        margin: 20px;
     }
 }
 .second_block {
     padding:0px 0px 10px 0px;
     display: flex;
+    flex-flow: row wrap;
     h2{
         @include headerAlign()
     }
     div:nth-child(1) {
-        border: 2px solid green;
-        width: 40%;
+        width: 60%;
     } 
     div:nth-child(2) {
-        padding: 2%;
-        width: 60%;
+        width: 40%;
         height: 100%;
     }
 }
-.third_block {
-    padding:0px 0px 10px 0px;
+.players {
     display: flex;
-    h2{
-        @include headerAlign()
-    }
-    div:nth-child(1) {
-        border: 2px solid green;
-        width: 40%;
-    } 
-    div:nth-child(2) {
-        padding: 2%;
-        width: 60%;
-        height: 100%;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourth_block,.third_block {
+    padding: 0.61%;
+    h2 {
+        text-align: center;
+        padding: 0.61%;
     }
 }
+
 .fifth_block {
     padding:0px 0px 10px 0px;
     display: flex;
@@ -90,12 +88,11 @@ $primary-color:rgba(156, 94, 75, 0.953);
         @include headerAlign()
     }
     div:nth-child(1) {
-        border: 2px solid green;
         width: 60%;
         padding: 2%;
     } 
-    div:nth-child(2) {
-        width: 40%;
-        height: 100%;
-    }
 }
+
+    .picture {
+        margin: auto 1%;
+    }

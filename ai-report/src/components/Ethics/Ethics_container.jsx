@@ -11,15 +11,27 @@ export default function Ethics_container(props) {
                     <article>{props.article_top}</article>
                     <article>{props.article_top2}</article>
                 </div>
-                <img src="https://www.telefonica.de/file/repository/36993_t_1024_576/2/0/KI-Prinzipien-englisch-1920x1080.jpg" alt=""/>
+                <div className="picture">
+                    <img src="https://financesonline.com/uploads/2019/11/building-a-competitive-ethical-AI-economy.jpg" alt="no image"
+                    width='140%'
+                    height="180%" />
+                </div>
             </div>
             <div className="second_block article_block">
-                    <ReactPlayer
-                    url="https://www.youtube.com/watch?v=Izd2qOgOGQI"
-                    width="50vw"
-                    height="50vh"
-                    
+                <div className="players">
+                    <ReactPlayer className="Player"
+                        url="https://www.youtube.com/watch?v=Izd2qOgOGQI"
+                        width="400px"
                     />
+                    <ReactPlayer className="Player"
+                        url="https://www.youtube.com/watch?v=vgUWKXVvO9Q"
+                        width="400px"
+                    />
+                    <ReactPlayer className="Player"
+                        url="https://www.youtube.com/watch?v=H15uuDMqDK0"
+                        width="400px"
+                    />
+                </div>
                 <div className="second_block__article">
                     <h2>{props.header_middle}</h2>
                     <article>{props.article_middle}</article>
@@ -46,8 +58,14 @@ export default function Ethics_container(props) {
                 <h2>{props.header_bottom2}</h2>
                 <article>{props.article_bottom3}</article>
                 <article>{props.article_bottom4}</article>
-                <div></div>
                 </div>
+                <div className="picture">
+                    <img src="https://www.governmentciomedia.com/sites/default/files/styles/featured_article_image/public/2019-03/Screen%20Shot%202019-03-11%20at%201.49.45%20PM.png?itok=QMMmxNPM" alt="no img"
+                    width="600px"
+                    height="500px"
+                    />
+                </div>
+            
             </div>
         </div>
     )
