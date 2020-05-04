@@ -70,3 +70,10 @@ $font-size:1.65em;
             margin:50vh 0 10vh -20vh;
         }
 }
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom:5vh;
+}

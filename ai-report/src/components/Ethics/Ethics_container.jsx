@@ -69,6 +69,11 @@ export default function Ethics_container(props) {
                 <article>{props.article_bottom4}</article>
                 </div>
             </div>
+            <div className="links">
+                <a href="https://www.theatlantic.com/sponsored/hpe-2018/the-ethics-of-ai/1865/">Moral code: ethics of AI.</a>
+                <a href="https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html">Is Ethical A.I. Even Possible?</a>
+                <a href="https://www.itpro.co.uk/technology/30736/what-is-ethical-ai">What is ethical AI?</a>
+            </div>
         </div>
     )
 }
