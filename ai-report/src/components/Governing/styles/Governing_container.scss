@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+$color-primary:white;
+$font-size:1.3rem;
+
+
 @import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
 
 @mixin floating($side, $radiusLeft) {
@@ -27,8 +32,6 @@
         }
 }
 
-$color-primary:white;
-$font-size:1rem;
 
 .Main {
     background-image: url('https://wallpaperaccess.com/full/1398312.jpg');
@@ -76,7 +79,7 @@ $font-size:1rem;
         display: inline-block;
         text-decoration: none;
         color: blue;
-        font-size: 1rem;
+        font-size: 1.6rem;
         margin:40px;
 
         &:hover{

@@ -27,11 +27,11 @@
        text-shadow:3px 3px 2.5px rgb(29, 29, 28);
        position: absolute;
        top:50vh;
-       right:25vw;
+       right:38vw;
        letter-spacing: 0.1rem;
        z-index: 5;
        font-family: 'Playfair Display', serif;
-       font-size: 1.5rem;
+       font-size: 3rem;
        span:nth-child(2) {
            color: yellowgreen;
            @include inline-animation(5s) {

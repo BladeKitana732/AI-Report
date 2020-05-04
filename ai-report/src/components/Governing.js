@@ -45,7 +45,7 @@ export default function Governing() {
                 ““Yet laws and regulation tend to lag significantly behind technological change. It took over a decade for our copyright law to catch up with the video recorder and the same again for the iPod. Lawmakers cannot predict what tech companies will produce and these firms often fail to predict how the public will use the technology.”"
             
 
-            headText_middle="Who is responsible for AI’s decisions?"
+            headText_bottom="Who is responsible for AI’s decisions?"
 
             article_bottom1="
                 Worryingly, none of the current AI ethical codes that the Open Data Institute analysed carry legal backing, or forms of recourse, or penalties for breaking them. To date there are few legal provisions for AI. It’s only a matter of time before tighter regulation comes into force, especially if the general public is to trust AI’s meteoric rise and use by technologists."
