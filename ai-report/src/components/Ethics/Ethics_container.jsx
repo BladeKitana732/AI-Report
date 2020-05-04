@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles/Ethics_container.scss'
+import './styles/Ethics_container.scss';
+import ReactPlayer from "react-player";
 
 export default function Ethics_container(props) {
     return (
@@ -10,10 +11,15 @@ export default function Ethics_container(props) {
                     <article>{props.article_top}</article>
                     <article>{props.article_top2}</article>
                 </div>
-                <img src="https://www.telefonica.de/file/repository/36993_t_1024_576/2/0/KI-Prinzipien-englisch-1920x1080.jpg" alt="" width='100%'/>
+                <img src="https://www.telefonica.de/file/repository/36993_t_1024_576/2/0/KI-Prinzipien-englisch-1920x1080.jpg" alt=""/>
             </div>
             <div className="second_block article_block">
-                <div></div>
+                    <ReactPlayer
+                    url="https://www.youtube.com/watch?v=Izd2qOgOGQI"
+                    width="50vw"
+                    height="50vh"
+                    
+                    />
                 <div className="second_block__article">
                     <h2>{props.header_middle}</h2>
                     <article>{props.article_middle}</article>
