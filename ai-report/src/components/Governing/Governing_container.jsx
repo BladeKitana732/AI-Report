@@ -9,7 +9,7 @@ export default function Governing_container(props) {
             <div className="Header">
                 <div className="firstBlock">
                     <h2>{props.headText_top}</h2>
-                    <img src={props.article_Pic} alt="no img" width='600px'/>
+                    <img src={props.article_Pic} alt="no img" width='350px'/>
                     <article>{props.article}</article>
                     <article>{props.article_top_2}</article>
                     <article>{props.article_top_3}</article>
@@ -19,7 +19,7 @@ export default function Governing_container(props) {
                 <div className="secondBlock">
                     <h2>{props.headText_middle}</h2>
                     <article>{props.article_middle}</article>
-                    <img src={props.article_Pic2} alt="no img" width='900px' />
+                    <img src={props.article_Pic2} alt="no img" width='450px' />
                     <article>{props.article_middle2}</article>
                     <article>{props.article_middle3}</article>
                     <article>{props.article_middle4}</article>
@@ -31,21 +31,19 @@ export default function Governing_container(props) {
                 <div className="thirdBlock">
                     <h2>{props.headText_middle}</h2>
                     <article>{props.article_bottom}</article>
-                    <img src={props.article_Pic3} alt="no img" width='600px'/>
+                    <img src={props.article_Pic3} alt="no img" width='350px'/>
                     <article>{props.article_bottom2}</article>
                     <article>{props.article_bottom3}</article>
                     <article>{props.article_bottom4}</article>
                 </div>
-                    <div className="videoLink">
+                    <div className="videoLinking">
                         <ReactPlayer className="videoLink"
                             url="https://www.youtube.com/watch?v=oXEOXDS8nJ8"
-                            width="30vw"
-                            height='40vh'
+                            width="60vw"
                         />
                         <ReactPlayer className="videoLink"
                             url="https:www.youtube.com/watch?v=775DYqKA5Ks"
-                            width="30vw"
-                            height='40vh'
+                            width="60vw"
                         />
                     </div>
                     <div className="links">

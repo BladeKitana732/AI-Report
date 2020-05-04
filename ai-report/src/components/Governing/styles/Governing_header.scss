@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 @mixin inline-animation($duration) {
   $name: inline-#{unique-id()};
 
@@ -27,10 +27,11 @@
        text-shadow:3px 3px 2.5px rgb(29, 29, 28);
        position: absolute;
        top:50vh;
-       right:15vw;
-       letter-spacing: 0.7rem;
+       right:25vw;
+       letter-spacing: 0.1rem;
        z-index: 5;
-       font-size: 4rem;
+       font-family: 'Playfair Display', serif;
+       font-size: 1.5rem;
        span:nth-child(2) {
            color: yellowgreen;
            @include inline-animation(5s) {
