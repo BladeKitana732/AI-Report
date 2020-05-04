@@ -46,7 +46,7 @@ $primary-color:rgba(156, 94, 75, 0.953);
 }
 .second_block {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     padding: 0;
     h2{
         @include headerAlign()

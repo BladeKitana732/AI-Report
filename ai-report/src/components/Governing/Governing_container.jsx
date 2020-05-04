@@ -19,7 +19,7 @@ export default function Governing_container(props) {
                 <div className="secondBlock">
                     <h2>{props.headText_middle}</h2>
                     <article>{props.article_middle}</article>
-                    <img src={props.article_Pic2} alt="no img" width='450px' />
+                    <img src={props.article_Pic2} alt="no img" width='350px' />
                     <article>{props.article_middle2}</article>
                     <article>{props.article_middle3}</article>
                     <article>{props.article_middle4}</article>
