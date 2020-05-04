@@ -26,11 +26,9 @@
 }
 
 $color-primary:white;
-$font-size:2.1rem;
+$font-size:1rem;
 
 .Main {
-    width: 100vw;
-    height: 550vw;
     background-image: url('https://wallpaperaccess.com/full/1398312.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -47,7 +45,7 @@ $font-size:2.1rem;
     
     h2{
         text-align: center;
-        font-size: 4em;
+        font-size: 2em;
         margin: 20px;
     }
 }
@@ -65,8 +63,7 @@ $font-size:2.1rem;
     display: flex; 
     flex-flow: wrap row;
     justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 5%;
+    margin: 1%;
 }
 
 .links {
@@ -74,7 +71,7 @@ $font-size:2.1rem;
         display: inline-block;
         text-decoration: none;
         color: blue;
-        font-size: 1.6em;
+        font-size: 1rem;
         margin:40px;
 
         &:hover{
