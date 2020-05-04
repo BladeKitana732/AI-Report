@@ -4,7 +4,7 @@ import Ethics_container from '../components/Ethics/Ethics_container';
 
 export default function Ethics() {
     return (
-        <div>
+        <div classname='father_container'>
             <Ethics_header
                 image_path="https://www.telefonica.de/file/repository/36993_t_1024_576/2/0/KI-Prinzipien-englisch-1920x1080.jpg"
                 image_path2="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPmhRz7jzAubyyxiFBJwe29g63U4R0GO9LrIxmhRJOi2RBdt4I&usqp=CAU"
