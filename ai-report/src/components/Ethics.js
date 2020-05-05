@@ -5,9 +5,17 @@ export default class Ethics extends Component {
         return (
             <div>
 
-                <Container fluid>
-
-                </Container>
+                <footer>
+                    <div>
+                        <div>
+                            <a href="#0" class="item">
+                                <span>About us</span>
+                                <h6>Our mission</h6>
+                                <h6>Learn more</h6>
+                            </a>
+                        </div>
+                    </div>
+                </footer>
 
             </div>
         )
