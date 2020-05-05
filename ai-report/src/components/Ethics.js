@@ -33,6 +33,7 @@ export default class Ethics extends Component {
                                 <h6>Facebook</h6>
                             </a>
                         </div>
+                        <p>&copy; 2020 Company Name. All rights reserved.</p>
                     </div>
                 </footer>
 
