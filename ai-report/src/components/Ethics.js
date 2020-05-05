@@ -26,6 +26,12 @@ export default class Ethics extends Component {
                                 <h6>Take Action</h6>
                                 <h6>Volunteer</h6>
                             </a>
+
+                            <a href="#0" class="item">
+                                <span>Contact</span>
+                                <h6>Info</h6>
+                                <h6>Facebook</h6>
+                            </a>
                         </div>
                     </div>
                 </footer>
