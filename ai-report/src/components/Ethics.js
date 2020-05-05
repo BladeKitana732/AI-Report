@@ -12,7 +12,10 @@ export default class Ethics extends Component {
                     marginTop: '2rem'
                 }}>
                     <div>
-                        <div>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-around'
+                        }}>
                             <a href="#0" class="item">
                                 <span>About us</span>
                                 <h6>Our mission</h6>
