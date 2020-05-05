@@ -19,6 +19,13 @@ export default class Ethics extends Component {
                                 <h6>Amnesty.org</h6>
                                 <h6>Human rights Education</h6>
                             </a>
+
+                            <a href="#0" class="item">
+                                <span>Get involved</span>
+                                <h6>Join</h6>
+                                <h6>Take Action</h6>
+                                <h6>Volunteer</h6>
+                            </a>
                         </div>
                     </div>
                 </footer>
