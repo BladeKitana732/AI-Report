@@ -5,7 +5,12 @@ export default class Ethics extends Component {
         return (
             <div>
 
-                <footer>
+                <footer style={{
+                    backgroundColor: 'darkgray',
+                    paddingTop: '1.5rem',
+                    paddingBottom: '2rem',
+                    marginTop: '2rem'
+                }}>
                     <div>
                         <div>
                             <a href="#0" class="item">
